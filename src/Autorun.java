@@ -8,7 +8,7 @@ public class Autorun {
         Dragons.setLastname(name1);
         System.out.println("Книгу с названием " + Dragons.getBookname()+" Написал " + Dragons.getFirstname()+" "+Dragons.getLastname()+" Она была опубликована в " + Dragons.getAgepublication()+" Году");
         Author Anton= new Author("Anton","Krasnov");
-        Book Cars = new Book("Cars",2015);
+        Book Cars = new Book("Cars", 2015);
         String name2=Anton.getFirstname();
         Cars.setFirstname(name2);
         String name3=Anton.getLastname();
