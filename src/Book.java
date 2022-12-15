@@ -1,16 +1,9 @@
 public class Book {
     private String bookname;
     private int agepublication;
-    private String firstname;
-    private String lastname;
+    Author firstname;
+    Author lastname;
 
-    public void setFirstname(String firstname) {
-        this.firstname = firstname;
-    }
-
-    public void setLastname(String lastname) {
-        this.lastname = lastname;
-    }
 
     public Book(String bookname, int agepublication) {
         this.bookname = bookname;
@@ -25,13 +18,6 @@ public class Book {
         return this.agepublication;
     }
 
-    public String getFirstname() {
-        return this.firstname;
-    }
-
-    public String getLastname() {
-        return this.lastname;
-    }
 
     public void setAgepublication(int agepublication) {
         this.agepublication = agepublication;
