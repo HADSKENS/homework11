@@ -14,4 +14,13 @@ public class Author {
     public String getLastname() {
         return this.lastname;
     }
+    public String setFristname(String firstname){
+        return this.firstname;
+    }
+    public String setLastname(String lastname){
+        return this.lastname;
+    }
+    public String toString(){
+        return firstname+" "+lastname;
+    }
 }

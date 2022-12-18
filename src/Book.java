@@ -1,12 +1,13 @@
 public class Book {
     private String bookname;
     private int agepublication;
-    Author name;
+    private Author author;
 
 
-    public Book(String bookname, int agepublication) {
+    public Book(String bookname, Author author, int agepublication) {
         this.bookname = bookname;
         this.agepublication = agepublication;
+        this.author = author;
     }
 
     public String getBookname() {
@@ -17,6 +18,12 @@ public class Book {
         return this.agepublication;
     }
 
+    public Author getAuthor() {
+        return this.author;
+    }
+    public String setBookname(String bookname){
+        return this.bookname=bookname;
+    }
 
     public void setAgepublication(int agepublication) {
         this.agepublication = agepublication;
