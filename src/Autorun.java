@@ -5,6 +5,6 @@ public class Autorun {
         Book Cars = new Book("Cars", new Author("Anton","Krasnov"),2015);
         System.out.println("Книгу с названием " + Cars.getBookname()+" Написал " +Cars.getAuthor()+" Она была опубликована в " + Cars.getAgepublication()+" Году");
         Dragons.setAgepublication(2015);
-        System.out.println("Книгу с названием " + Dragons.getBookname()+" Написал " + Cars.getAuthor()+" Она была опубликована в " + Dragons.getAgepublication()+" Году");
+        System.out.println("Книгу с названием " + Dragons.getBookname()+" Написал " + Dragons.getAuthor()+" Она была опубликована в " + Dragons.getAgepublication()+" Году");
     }
 }
